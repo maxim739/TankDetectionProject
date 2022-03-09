@@ -1,0 +1,13 @@
+Download the git
+	git clone --recursive http://github.com/dusty-nv/jetson-inference
+Going to jetson-inference
+	cd jetson-inference
+Running opening script in docker container
+	docker/run.sh
+	(To download models in the future run models-donload.sh in jetson-inference/tools)
+Download proper models brought up, download specific or all of them
+There are listed directories that are mounted from the host device into the container on Jetson-Inference GitHub
+	(To mount your own directories into the container, run "--volume HOST_DIR:MOUNT_DIR" argument to "docker/run.sh"
+Run the detectnet model with
+	detectnet csi://0
+

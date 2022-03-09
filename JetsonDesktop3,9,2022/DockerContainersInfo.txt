@@ -1,0 +1,20 @@
+Downloading Containers:
+Use:	docker pull [OPTIONS] NAME[:TAG|@DIGEST]
+e.g download L4T-base container from NGC
+	sudo docker pull nvcr.io/nvidia/l4t-base:r32.4.3
+		Note: nvcr.io/nvidia/l4t-base is the name, and r32.4.3 is the tag (Tags provide version control)
+
+Listing Docker Containers:
+Use:	sudo docker image ls [OPTIONS] [REPOSITORY[:TAG]]
+
+Running Docker Containers:
+Use:	sudo docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
+e.g run L4T-base container
+	sudo docker run -it --rm --net=host --runtime nvidia -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix nvcr.io/nvidia/l4t-base:r32.6.1
+
+Notes:
+	-it means run in interactive mode
+	--rm will delete the container when finished
+	--runtime nvidia will use the NVIDIA container runtime while running the l4t-base container
+	-v is the mounting directory, and used to mount hostA s X11 display in the container filesystem to render output videos
+	r32.6.1 is the tag for the image corresponding to the l4t release

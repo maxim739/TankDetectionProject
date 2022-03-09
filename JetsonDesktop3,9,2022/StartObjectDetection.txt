@@ -1,0 +1,7 @@
+Import dir with scripts into the container
+	"docker/run.sh --volume ~/[dir to mount]:/[namedirincontainer]"
+		e.g docker/run.sh --volume ~/TankDetection:/TankDetection
+			Check with: ls /TankDetection/
+			Go into with cd /TankDetection/
+
+

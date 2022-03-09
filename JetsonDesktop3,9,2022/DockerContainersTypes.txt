@@ -1,0 +1,12 @@
+Here is a list of docker containers hosted by Nvidia NGC, meant for Jetson:
+	- L4T Base container image - The base image that can host all containerized appplications on the Jetson
+	- CUDA runtime container image - COntains CUDA runtime components, useful to containerize CUDA applications for deployment
+	- TensorRT runtime container image - TensorRT and cuDNN runtime components are in this image, and will not be mounted from host
+		useful to containerize AI applications for deployment
+	- DeepStream container images - these container images that include things from DeepStream SDK
+	- TensorFlow container image - includes tensorflow pre-installed in python 3.6, used to set up a tensorflow development quickly
+		used as a base image for containerizing tensorflow applications
+	- Pytorch container image - Pytorch and tourchvision pre installed with python, set up pytorch quickly
+		used to containerize pytorch applications
+	- Machine Learning container image - Contains tensorflow, pytorch, jupyterlab, and other ML frameworks
+		Other ML frameworks: scikit-learn, scipy, pandas
