@@ -76,12 +76,12 @@ while True:
 		locationx = (detections[0].Center[0])
 		locationy = (detections[0].Center[1])
 
-	print("detection:")
-	print(index)
-	#print(width)
-	print(locationx)
-	print(locationy)
-	#print(flag)
+		print("detection:")
+		print(index)
+		#print(width)
+		print(locationx)
+		print(locationy)
+		#print(flag)
 
 	# render the image
 	output.Render(img)
