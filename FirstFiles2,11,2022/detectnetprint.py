@@ -70,6 +70,7 @@ while True:
 	print("detected {:d} objects in image".format(len(detections)))
 
 	for detection in detections:
+		print("There are {:d} objects in the image".format(len(detections)))
 		print(detection)
 		index = detections[0].ClassID
 		#width = (detections[0].Width)
