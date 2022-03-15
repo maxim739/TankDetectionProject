@@ -1,4 +1,4 @@
 - FirstFiles folder was made in 2/11/2022
 - The desktop folder was made in 3/9/2022
 - The Arduino to Jetson folder was made in 3/11/2022
-- Jetson nano to arduino serial communication with basic LED 3/15/2022
+- Jetson nano to arduino serial communication with basic LED, and arduino to Jetson paste in terminal 3/15/2022
