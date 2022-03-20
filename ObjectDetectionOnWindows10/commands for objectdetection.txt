@@ -1,0 +1,18 @@
+https://www.youtube.com/watch?v=T_vcUhoPX2U
+https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+https://www.youtube.com/watch?v=flgJoIrZv2w
+
+Create Environment: 	- https://www.youtube.com/watch?v=flgJoIrZv2w
+			- https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+	Open terminal
+		conda -V
+		conda update conda
+		conda create -n myobjectdetection1 python=3.8 anaconda
+	Go to source: activate myobjectdetection1
+
+Open anaconda GUI
+	Navigate to your environment in dropdown
+	Launch jupyterlab
+	Create python notebook
+	
+
