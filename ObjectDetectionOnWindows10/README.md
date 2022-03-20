@@ -3,7 +3,10 @@ Tried object detection on my windows 10 computer from 3/18-20/2022
 
 3/18-19 - Followed a tutorial by Edje Electronics, but the video was old, and after ~8 hours of following the tutorial and troubleshooting I decided that it was too meticulous to try and change all of the syntax required to run the program
 
+https://www.youtube.com/watch?v=Rgpfk6eYxJA
+
 3/20 - Gave up on Edje Electronics Tutorial and moved to abdelrahman-gaber's tutorial, which had a similar problem. Then I moved to this video series by CODE MENTAL which worked well, however, it did not work for me even though it was in correlation with the TensorFlow 2 Object detection api tutorial
+  
   https://medium.com/@marklabinski/installing-tensorflow-object-detection-api-on-windows-10-7a4eb83e1e7b
   https://www.youtube.com/watch?v=flgJoIrZv2w
   https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
