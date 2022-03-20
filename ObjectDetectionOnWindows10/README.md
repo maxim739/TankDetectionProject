@@ -17,3 +17,4 @@ Things to learn:
     - If I wanted to get into segmentation, I would want to use a bigger GPU, in the tests I was able to run the computer handled it very smoothly
     - If I get a laptop with a good enough GPU, I will definitley try to run this again
     - I could also look into using a cloud Ubuntu machine or using an online GPU
+    - Anaconda is very helpful, especially on Windows where I can use the environments to seperate my different projects. Use this more in the future.
