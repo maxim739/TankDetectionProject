@@ -1,4 +1,5 @@
 Tried object detection on my windows 10 computer from 3/18-20/2022
+  - I wanted to use my computer for more than homework and games, and wanted to use the GPU that lied dormant in my computer for most of the time. 
   - It did not work out
 
 3/18-19 - Followed a tutorial by Edje Electronics, but the video was old, and after ~8 hours of following the tutorial and troubleshooting I decided that it was too meticulous to try and change all of the syntax required to run the program
