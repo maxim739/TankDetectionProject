@@ -27,3 +27,15 @@ Start camera-capture csi://0 in the docker container (Mount jetson-inference in 
 		docker/run.sh --volume ~/jetson-inference:/jetson-inference
 		Dir = jetson-inference/python/training/ssd/data/squares
 		Labels = jetson-inference/python/training/ssd/data/squares/labels.txt
+		
+Training the data:
+1) Navigate to the detection/ssd directory
+2) python3 train_ssd.py --dataset-type=voc --data=<Path to your data> --model-dir=<your model> --epochs=<# epochs>
+	This is data in the pascal-voc format, which is why we say dataset type is voc
+		Ex. python3 train_ssd.py --dataset-type=voc --data=data/squares --model-dir=models/squares100 --batch-size=2 --workers=1 --epochs=100
+
+Convert the model to onnx:
+1) python3 onnx_export.py --model-dir=models/<yourmodel>
+
+Running Your Model:
+1) detectnet --model=models/<your-model>/ssd-mobilenet.onnx --labels=models/<model-name>/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes csi://0
