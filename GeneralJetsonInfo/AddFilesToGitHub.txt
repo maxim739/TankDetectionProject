@@ -1,0 +1,17 @@
+Assumed: Created a respository on Github
+	 Cloned the respository locally to your computer
+
+1) Move the file you would like to upload to Github to your local respository
+2) Open
+3) Change current working directory to local respository
+4) Stage the file for commit to local respository
+	$ git add .
+	# Adds the file to your local respository and stages the commit. To unstage:
+		use 'git reset HEAD 'YOUR-FILE''
+5) Commit the file you staged in your local respository
+	$ git commit -m "Add existing file"
+	# Commits the tracjed changes and prepares them to be pused to a remote repository. To remove or modify this file use:
+		'git reset --soft HEAD~1' and commit and add the file again
+6) Push the changes in local respository to GitHub.com
+	$ git push orgin 'your-branch''
+	# Pushes the changes in your local respository to the remote repository you specified as the orgin
