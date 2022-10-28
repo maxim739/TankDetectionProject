@@ -1,0 +1,9 @@
+Arduino - Flysky FS-iA6B
+GND - GND
+5V - VCC
+3 - 1
+5 - 2
+6 - 3
+9 - 4
+10 - 5
+11 - 6

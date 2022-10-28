@@ -1,0 +1,4 @@
+Arduino - FS-iA6B iBUS SERVO
+GND - GND
+5V - VCC
+19(RX1) - DATA
